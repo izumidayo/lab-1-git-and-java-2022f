@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    public void testAndoIzum() {
+        String expected = "Nice to meet you! My name is Izumi! " +
+                "I like dogs more than cats! I look forward to working with you!";
+        String actual = IntroLab.andoizum();
+        assertEquals(expected,actual);
+    }
 }
